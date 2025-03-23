@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form</title>
+</head>
+<body>
+    <h1>Table and Form</h1>
+
+    <table>
+        <tr>    <!--tr : Table row-->
+            <th>Name</th>   <!--th : Table header-->
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Bob</td>    <!--td : Table data-->
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <form >
+        <h2>Login form</h2>
+        <label for="email">     <!--label : Label for the input field-->
+            email:
+            <input placeholder="enter your email" type="email" name="email">
+        </label>
+        <label for="password">
+            password:
+            <input placeholder="enter your password" type="password" name="password" id="">
+        </label>
+        <textarea name="text" id="" cols="30" rows="10">Write your login message</textarea>
+        <button type="submit">Login</button>
+    </form>
+
+    <div>
+        <h2>Form</h2>
+        <form >
+            <label for="Sports">
+                Basketball: 
+                <input type="checkbox" name="" id="">   <!--checkbox : Checkbox input field-->
+            </label>
+            <label for="Sports">
+                Cricket:
+                <input type="checkbox" name="" id="">
+            </label>
+
+            <label for="month">
+                Date of Birth:
+                <input type="month" name="" id="">    <!--month : Month input field-->
+            </label>
+
+            <label for="file">
+                Upload:
+                <input type="file" name="" id="">    <!--file : File input field-->
+            </label>
+
+            <label for="Sports">
+                <select name="Sports" id="">    <!--select : Dropdown list-->
+                    <option value="Cricket">Cricket</option>
+                    <option value="Baseball">Baseball</option>
+                </select>
+            </label>
+
+            <label for="color">
+                <input type="color" name="" id="">     <!--color : Color input field-->
+            </label>
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
